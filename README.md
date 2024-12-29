@@ -1,0 +1,1 @@
+This repository contains a bug report and solution for a Dapp balance bug. The bug is in the balanceOf function, which does not handle the case where the account does not exist. The solution is to add a check to see if the account exists before returning the balance.
